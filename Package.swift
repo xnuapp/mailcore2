@@ -317,9 +317,9 @@ let package = Package(
             targets: ["MailCore"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jsflax/libetpan/", branch: "master"),
-        .package(url: "https://github.com/jsflax/tidy-html5/", branch: "master"),
-        .package(url: "https://github.com/jsflax/ctemplate/", branch: "master")
+        .package(url: "https://github.com/xnuapp/libetpan/", branch: "master"),
+        .package(url: "https://github.com/xnuapp/tidy-html5/", branch: "master"),
+        .package(url: "https://github.com/xnuapp/ctemplate/", branch: "master")
     ],
     targets: [
         .target(name: "MailCore",
